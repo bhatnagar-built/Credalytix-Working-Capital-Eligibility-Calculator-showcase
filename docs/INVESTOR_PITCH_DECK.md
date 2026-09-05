@@ -8,6 +8,7 @@
 ## 🎯 Slide 1: Executive Summary & Vision
 
 - **Company Vision:** Standardizing and automating commercial credit underwriting for banks, NBFCs, and institutional lenders worldwide.
+- **Product Stage:** **Active Testing & Pilot Phase** (Undergoing stress testing, financial ratio validation, and pilot evaluations with partner lenders).
 - **What We Do:** An automated, audit-grade B2B credit appraisal platform that ingests multi-year financial statements, computes institutional financial ratios, evaluates a 100-point calibrated RAM Scorecard, calculates regulatory Working Capital (MPBF) limits, and generates boardroom-ready Credit Appraisal Memos (CAM).
 - **Core Value:** Reduces commercial loan Turnaround Time (TAT) from **14 days to under 15 minutes** while eliminating underwriting calculation errors and standardizing credit risk decisions.
 

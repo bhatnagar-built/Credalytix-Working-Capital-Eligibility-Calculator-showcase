@@ -2,6 +2,8 @@
 
 ## **Automated Commercial Credit Appraisal, RAM Scorecard & Working Capital Engine**
 
+**Current Product Stage:** `Active Testing & Pilot Phase (Closed Beta)`
+
 ---
 
 ### 📌 Problem Statement
