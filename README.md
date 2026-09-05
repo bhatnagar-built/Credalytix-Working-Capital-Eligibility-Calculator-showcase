@@ -1,12 +1,12 @@
 <div align="center">
 
-# 🏛️ Credalytix: Intelligent Commercial Credit Underwriting & RAM Scorecard Engine
+# 🏛️ Credalytix: Working Capital Eligibility Calculator
 
-**Transforming Commercial Loan Appraisals from a 14-Day Ordeal into a 15-Minute Deterministic Decision**
+**Intelligent Commercial Credit Underwriting, RAM Scorecard & MPBF Appraisal Suite**
 
-[![Product Showcase](https://img.shields.io/badge/Showcase-Investor%20Ready-blue.svg)](https://github.com/bhatnagar-built/business-banking-showcase)
-[![Product Status](https://img.shields.io/badge/Status-Active%20Testing%20Phase%20%2F%20Beta-yellow.svg)](https://github.com/bhatnagar-built/business-banking-showcase)
-[![Underwriting Model](https://img.shields.io/badge/RAM%20Model-100%20Point%20Calibrated-success.svg)](./docs/UNDERWRITING_METHODOLOGY.md)
+[![Product Showcase](https://img.shields.io/badge/Showcase-Investor%20Ready-blue.svg)](https://github.com/bhatnagar-built/Credalytix-Working-Capital-Eligibility-Calculator-showcase)
+[![Product Status](https://img.shields.io/badge/Status-Active%20Testing%20Phase%20%2F%20Beta-yellow.svg)](https://github.com/bhatnagar-built/Credalytix-Working-Capital-Eligibility-Calculator-showcase)
+[![Underwriting Model](https://img.shields.io/badge/RAM%20Model-Calibrated%203--Pillar-success.svg)](./docs/UNDERWRITING_METHODOLOGY.md)
 [![Regulatory Support](https://img.shields.io/badge/Regulatory-Tandon%20Method%20II%20%26%20SARFAESI-orange.svg)](./docs/UNDERWRITING_METHODOLOGY.md)
 [![Target Market](https://img.shields.io/badge/ICP-Banks%20%7C%20NBFCs%20%7C%20Fintechs-purple.svg)](./docs/INVESTOR_PITCH_DECK.md)
 
@@ -180,10 +180,10 @@ For partnership inquiries, pilot programs, or investor discussions:
 - **Founder & Architect:** Abhishek Bhatnagar
 - **Email:** [abhi.bhatnagar2593@gmail.com](mailto:abhi.bhatnagar2593@gmail.com)
 - **GitHub:** [@bhatnagar-built](https://github.com/bhatnagar-built)
-- **Showcase Repository:** [github.com/bhatnagar-built/business-banking-showcase](https://github.com/bhatnagar-built/business-banking-showcase)
+- **Showcase Repository:** [github.com/bhatnagar-built/Credalytix-Working-Capital-Eligibility-Calculator-showcase](https://github.com/bhatnagar-built/Credalytix-Working-Capital-Eligibility-Calculator-showcase)
 
 ---
 
 <div align="center">
-<sub>© 2026 Credalytix. Confidential and Proprietary. Showcase & Investor Overview.</sub>
+<sub>© 2026 Credalytix — Working Capital Eligibility Calculator. Confidential and Proprietary.</sub>
 </div>

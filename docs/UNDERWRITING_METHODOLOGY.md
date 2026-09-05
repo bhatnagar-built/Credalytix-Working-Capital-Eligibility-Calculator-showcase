@@ -1,6 +1,6 @@
 # 📐 Underwriting & Credit Risk Scoring Framework
 
-## **Institutional Commercial Credit Appraisal Architecture**
+## **Credalytix: Working Capital Eligibility Calculator — Institutional Architecture**
 
 > [!IMPORTANT]
 > **Confidential & Proprietary Framework**  

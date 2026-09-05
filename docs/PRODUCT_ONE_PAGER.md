@@ -1,6 +1,6 @@
-# 📄 Product One-Pager: Credalytix Underwriting Suite
+# 📄 Product One-Pager: Credalytix
 
-## **Automated Commercial Credit Appraisal, RAM Scorecard & Working Capital Engine**
+## **Working Capital Eligibility Calculator & Institutional Credit Appraisal Suite**
 
 **Current Product Stage:** `Active Testing & Pilot Phase (Closed Beta)`
 
@@ -44,5 +44,4 @@ Commercial loan underwriting for SMEs and mid-market enterprises takes **14 to 2
 
 ---
 
-*Contact: Abhishek Bhatnagar — abhi.bhatnagar2593@gmail.com*  
-*Public Showcase: [github.com/bhatnagar-built/business-banking-showcase](https://github.com/bhatnagar-built/business-banking-showcase)*
+*Public Showcase: [github.com/bhatnagar-built/Credalytix-Working-Capital-Eligibility-Calculator-showcase](https://github.com/bhatnagar-built/Credalytix-Working-Capital-Eligibility-Calculator-showcase)*

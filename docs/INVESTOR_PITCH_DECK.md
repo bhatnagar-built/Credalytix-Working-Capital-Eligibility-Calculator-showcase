@@ -1,7 +1,7 @@
 # 📊 Executive Investor Pitch Deck
 
-# **Credalytix: Next-Gen Commercial Credit Underwriting & RAM Appraisal Engine**
-*Transforming SME & Corporate Lending from a 14-Day Ordeal into a 15-Minute Deterministic Decision*
+# **Credalytix: Working Capital Eligibility Calculator**
+*Intelligent Commercial Credit Underwriting, RAM Scorecard & MPBF Appraisal Suite*
 
 ---
 
