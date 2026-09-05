@@ -1,85 +1,85 @@
-# 📐 Underwriting & Credit Risk Scoring Methodology
+# 📐 Underwriting & Credit Risk Scoring Framework
 
-## **Mathematical Framework & Regulatory Credit Appraisal Architecture**
+## **Institutional Commercial Credit Appraisal Architecture**
+
+> [!IMPORTANT]
+> **Confidential & Proprietary Framework**  
+> Exact mathematical weights, proprietary multi-factor ratio deduction algorithms, scoring thresholds, and calibrated risk rubrics are confidential intellectual property. This document provides a high-level overview of the underwriting dimensions evaluated by the engine.
 
 ---
 
-## 1. The 100-Point Financial-Statement-Driven RAM Scorecard
+## 1. Credit Risk Assessment Model (RAM) Architecture
 
-The platform employs a deterministic 100-point credit risk model calibrated exclusively on audited financial statements, solvency metrics, and fundamental business efficiency.
+The platform evaluates commercial borrowers across three core quantitative pillars derived from multi-year audited financial statements:
 
 ```
-Total RAM Score = [ Financial Performance (60 pts) ] + [ Capital Structure & Solvency (25 pts) ] + [ Business Fundamentals (15 pts) ]
+Total Credit Assessment = [ Pillar 1: Financial Performance & Cash Flow ] 
+                         + [ Pillar 2: Capital Structure & Solvency ] 
+                         + [ Pillar 3: Business Fundamentals & Operating Efficiency ]
 ```
 
 ---
 
-### Category 1: Financial Performance & Cash Flow (60 Points Max)
+### Pillar 1: Financial Performance & Cash Flow
+*Focuses on operational profitability, debt servicing adequacy, and cash generation capability.*
 
-| Parameter | Formula / Basis | Max Points | Optimal Benchmark | Risk Deduction Logic |
-| :--- | :--- | :---: | :--- | :--- |
-| **Current Ratio (CR)** | $\text{Current Assets} / \text{Current Liabilities}$ | **10 pts** | $\ge 1.33$ | $1.20 - 1.33 \rightarrow 7\text{ pts}$, $1.00 - 1.20 \rightarrow 4\text{ pts}$, $< 1.00 \rightarrow 0\text{ pts}$ |
-| **Debt Service Coverage Ratio (DSCR)** | $\frac{\text{PAT} + \text{Deprec.} + \text{Interest}}{\text{Principal Repayment} + \text{Interest}}$ | **10 pts** | $\ge 1.75$ | $1.50 - 1.75 \rightarrow 8\text{ pts}$, $1.20 - 1.50 \rightarrow 5\text{ pts}$, $< 1.20 \rightarrow 0\text{ pts}$ |
-| **Operating Profit Margin (OPM)** | $\text{EBITDA} / \text{Revenue} \times 100$ | **10 pts** | $\ge 15\%$ | $10\% - 15\% \rightarrow 7\text{ pts}$, $5\% - 10\% \rightarrow 4\text{ pts}$, $< 5\% \rightarrow 0\text{ pts}$ |
-| **Interest Service Coverage (ISCR)** | $\text{EBIT} / \text{Interest Expense}$ | **10 pts** | $\ge 3.0$ | $2.0 - 3.0 \rightarrow 7\text{ pts}$, $1.5 - 2.0 \rightarrow 4\text{ pts}$, $< 1.5 \rightarrow 0\text{ pts}$ |
-| **Revenue Growth & 3Y CAGR** | $(\text{Rev}_{FY} - \text{Rev}_{FY-1}) / \text{Rev}_{FY-1}$ | **8 pts** | $\ge 15\%$ | $8\% - 15\% \rightarrow 5\text{ pts}$, $0\% - 8\% \rightarrow 3\text{ pts}$, Negative $\rightarrow 0\text{ pts}$ |
-| **Return on Capital Employed (ROCE)** | $\text{EBIT} / (\text{Total Assets} - \text{Current Liabilities})$ | **7 pts** | $\ge 18\%$ | $12\% - 18\% \rightarrow 5\text{ pts}$, $8\% - 12\% \rightarrow 3\text{ pts}$, $< 8\% \rightarrow 0\text{ pts}$ |
-| **CFO to Total Debt** | $\text{Cash Flow from Operations} / \text{Total Debt}$ | **5 pts** | $\ge 25\%$ | $15\% - 25\% \rightarrow 3\text{ pts}$, $< 15\% \rightarrow 0\text{ pts}$ |
+- **Liquidity Health:** Multi-tier liquidity assessment evaluating short-term obligation coverage and buffer against working capital shocks.
+- **Debt Service Capability:** Comprehensive coverage analysis evaluating operating cash flows against principal amortization and interest service liabilities.
+- **Operating Profitability & Margins:** Trend analysis of operating profit margins (EBITDA), revenue quality, and gross profitability.
+- **Revenue Trajectory & Growth:** Multi-year compound annual growth rate (CAGR) and year-on-year expansion velocity.
+- **Capital Return Efficiency:** Assessment of return on capital employed (ROCE) and asset efficiency.
+- **Operating Cash Flow Quality:** Quality of earnings assessment comparing cash flow from operations (CFO) against total financial debt.
 
 ---
 
-### Category 2: Capital Structure & Solvency (25 Points Max)
+### Pillar 2: Capital Structure & Solvency
+*Focuses on balance sheet leverage, capital adequacy, and long-term financial stability.*
 
-| Parameter | Formula / Basis | Max Points | Optimal Benchmark | Risk Deduction Logic |
-| :--- | :--- | :---: | :--- | :--- |
-| **TOL / ATNW** | $\text{Total Outside Liabilities} / \text{Adjusted Tangible Net Worth}$ | **10 pts** | $\le 2.50$ | $2.50 - 3.50 \rightarrow 7\text{ pts}$, $3.50 - 4.50 \rightarrow 3\text{ pts}$, $> 4.50 \rightarrow 0\text{ pts}$ |
-| **Debt to Equity Ratio** | $\text{Total Long-Term Debt} / \text{Tangible Net Worth}$ | **6 pts** | $\le 1.50$ | $1.50 - 2.50 \rightarrow 4\text{ pts}$, $> 2.50 \rightarrow 0\text{ pts}$ |
-| **Net Worth Buffer** | Absolute Tangible Net Worth (ATNW) | **5 pts** | $\ge ₹10\text{ Cr}$ | $₹5\text{Cr} - ₹10\text{Cr} \rightarrow 3\text{ pts}$, $< ₹5\text{Cr} \rightarrow 1\text{ pt}$ |
-| **Debt to EBITDA Multiple** | $\text{Total Debt} / \text{EBITDA}$ | **4 pts** | $\le 3.0\times$ | $3.0\times - 4.5\times \rightarrow 2\text{ pts}$, $> 4.5\times \rightarrow 0\text{ pts}$ |
-
----
-
-### Category 3: Business Fundamentals & Operating Efficiency (15 Points Max)
-
-| Parameter | Formula / Basis | Max Points | Optimal Benchmark | Risk Deduction Logic |
-| :--- | :--- | :---: | :--- | :--- |
-| **Debtor Collection Days** | $(\text{Trade Receivables} / \text{Revenue}) \times 365$ | **5 pts** | $\le 60\text{ Days}$ | $60 - 90\text{ Days} \rightarrow 3\text{ pts}$, $> 90\text{ Days} \rightarrow 0\text{ pts}$ |
-| **Inventory Holding Days** | $(\text{Inventory} / \text{COGS}) \times 365$ | **4 pts** | $\le 60\text{ Days}$ | $60 - 90\text{ Days} \rightarrow 2\text{ pts}$, $> 90\text{ Days} \rightarrow 0\text{ pts}$ |
-| **Fixed Asset Turnover** | $\text{Revenue} / \text{Net Fixed Assets}$ | **3 pts** | $\ge 4.0\times$ | $2.5\times - 4.0\times \rightarrow 2\text{ pts}$, $< 2.5\times \rightarrow 0\text{ pts}$ |
-| **Operating Cycle Efficiency** | $\text{Debtor Days} + \text{Inventory Days} - \text{Payable Days}$ | **3 pts** | $\le 90\text{ Days}$ | $90 - 120\text{ Days} \rightarrow 2\text{ pts}$, $> 120\text{ Days} \rightarrow 0\text{ pts}$ |
+- **Leverage Multiples:** Comprehensive assessment of outside liabilities relative to adjusted tangible net worth (ATNW).
+- **Gearing & Debt-to-Equity:** Evaluation of long-term debt burden relative to owner capital and equity cushions.
+- **Capital Buffer & Net Worth Strength:** Absolute tangible capital size and capacity to absorb unexpected market shocks.
+- **Debt-to-Operating Earnings:** Multiple of total debt obligations relative to annualized operating EBITDA.
 
 ---
 
-## 2. RAM Risk Grade Classification & Underwriting Directives
+### Pillar 3: Business Fundamentals & Operating Efficiency
+*Focuses on working capital management, cash conversion cycle, and asset utilization.*
 
-| Score Range | RAM Risk Grade | Risk Profile | Underwriting Decision & Covenants |
-| :---: | :--- | :--- | :--- |
-| **80 – 100** | **RAM-1** | Minimal Risk / Prime | **Recommended for Approval**. Eligible for prime lending rates; standard security covenants. |
-| **65 – 79** | **RAM-2** | Low to Moderate Risk | **Recommended for Approval**. Standard pricing; quarterly compliance monitoring. |
-| **50 – 64** | **RAM-3** | Moderate Risk | **Conditional Approval**. Minimum 100% SARFAESI collateral cover; personal promoter guarantee required. |
-| **35 – 49** | **RAM-4** | High Risk | **Credit Committee Escalation**. Requires additional collateral cover ($\ge 125\%$) and monthly drawing power audits. |
-| **< 35** | **RAM-5** | Critical Risk | **Decline / Ineligible**. Fundamental financial weakness or excessive leverage. |
+- **Debtor Velocity & Collection Efficiency:** Assessment of receivables velocity, collection cycles, and customer concentration risk.
+- **Inventory Turnover & Holding Efficiency:** Evaluation of inventory days relative to industry operating norms.
+- **Fixed Asset Productivity:** Operating revenue generated per unit of net fixed productive assets.
+- **Operating Cash Cycle:** Net working capital cycle duration from raw material procurement to cash realization.
 
 ---
 
-## 3. Working Capital & MPBF Engine (Tandon Method II)
+## 2. Risk Grading & Underwriting Directives
 
-The platform evaluates the **Maximum Permissible Bank Finance (MPBF)** according to Reserve Bank of India (RBI) Tandon Committee guidelines:
+The engine maps borrowers into standard institutional credit risk tiers with automated policy recommendations:
 
-$$\text{Working Capital Gap (WCG)} = \text{Total Current Assets (TCA)} - \text{Other Current Liabilities (OCL)}$$
+| Risk Classification | Risk Profile | Underwriting Action |
+| :---: | :--- | :--- |
+| **Tier 1 (Prime)** | Superior financial health, strong solvency, and robust cash flows. | **Recommended for Approval**. Eligible for prime lending rates and standard security covenants. |
+| **Tier 2 (Good)** | Healthy financial ratios with manageable debt levels. | **Recommended for Approval**. Standard pricing with periodic covenant monitoring. |
+| **Tier 3 (Moderate)** | Acceptable credit profile with moderate leverage. | **Conditional Approval**. Enhanced collateralization and promoter guarantees stipulated. |
+| **Tier 4 (Elevated Risk)**| Financial stretch or high leverage detected. | **Credit Committee Escalation**. Requires additional security cover and enhanced monitoring. |
+| **Tier 5 (Critical Risk)**| Severe ratio deterioration or insolvency risk. | **Decline / Ineligible**. Outside standard risk tolerance thresholds. |
 
-$$\text{Minimum Stipulated Net Working Capital (NWC)} = 0.25 \times \text{Total Current Assets (TCA)}$$
+---
 
-$$\text{MPBF (Method II)} = \text{WCG} - \text{Stipulated NWC} = \text{WCG} - (0.25 \times \text{TCA})$$
+## 3. Working Capital & MPBF Assessment (Regulatory Model)
 
-$$\text{Assessed Bank Finance} = \min(\text{MPBF Method II}, \text{Borrower Requested Facility})$$
+The platform evaluates the **Maximum Permissible Bank Finance (MPBF)** according to established regulatory banking norms (Tandon Committee Method II & Turnover Methodologies):
+
+- **Working Capital Gap (WCG):** Evaluated from total current assets less non-bank current liabilities.
+- **Stipulated Net Working Capital (NWC):** Mandatory borrower margin requirement calculated against current asset base.
+- **Assessed Bank Finance:** Deterministic calculation ensuring bank exposure complies strictly with regulatory caps and drawing power limits.
 
 ---
 
 ## 4. Intelligent Schedule Completeness & Fallback Engine
 
-Audited financial reports often arrive with missing schedule annexures (e.g., Debtor Aging Schedule or Inventory Breakdown). Instead of rejecting the application or stalling the underwriter, the engine:
+Audited financial reports frequently arrive with missing schedule annexures. The engine incorporates a resilient fallback framework:
 
-1. **Detects Missing Schedules:** Automatically identifies whether Debtor Schedule, Inventory Schedule, or Fixed Asset Schedule are attached.
-2. **Activates Mathematical Fallback:** Derives debtor velocity from aggregate Balance Sheet trade receivables and revenue.
-3. **Contextual Flagging:** Generates a highlighted recommendation inside the Credit Appraisal Memo (CAM) requesting the underwriter obtain the schedule prior to final loan disbursement.
+1. **Automated Completeness Detection:** Identifies which audited schedules (Debtor Aging, Inventory, Fixed Assets) are attached.
+2. **Deterministic Mathematical Fallbacks:** Uses aggregate balance sheet line items to maintain appraisal continuity without stalling underwriters.
+3. **Contextual Policy Flags:** Generates highlight flags in the final Credit Appraisal Memo (CAM) requesting document submission prior to final loan disbursement.

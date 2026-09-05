@@ -39,7 +39,7 @@ Commercial credit appraisal for SMEs and mid-market corporates remains heavily m
 An institutional-grade credit appraisal suite that automates the end-to-end commercial underwriting lifecycle:
 
 1. **Automated Multi-Year Financial Spreading:** Instantly extracts Balance Sheet, P&L, and Granular Schedules (Debtors, Inventory, Fixed Assets, CWIP, Debt profile) across FY-2, FY-1, and FY.
-2. **100-Point Calibrated RAM Scorecard:** Evaluates borrowers strictly across Financial Performance (60 pts), Capital Structure & Solvency (25 pts), and Business Fundamentals (15 pts).
+2. **Proprietary Multi-Pillar RAM Scorecard:** Evaluates borrowers across Financial Performance & Cash Flow, Capital Structure & Solvency, and Business Fundamentals & Efficiency.
 3. **Regulatory Working Capital (MPBF) Engine:** Implements Tandon Committee Method II & Turnover Method for precise drawing power and working capital assessment.
 4. **Instant Boardroom CAM Generation:** Generates comprehensive, exportable Credit Appraisal Memos and credit verdicts with a complete verifiable audit trail.
 

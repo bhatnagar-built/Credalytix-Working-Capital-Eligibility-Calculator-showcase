@@ -20,7 +20,7 @@ Commercial loan underwriting for SMEs and mid-market enterprises takes **14 to 2
 
 | Capability | What It Does | Business Impact |
 | :--- | :--- | :--- |
-| **100-Point RAM Scorecard** | Calibrated scoring model across Financial Performance (60 pts), Capital Structure (25 pts), and Business Fundamentals (15 pts). | Objective, standardized, and auditable credit risk rating (RAM 1 to RAM 5). |
+| **Proprietary RAM Scorecard** | Calibrated scoring model across Financial Performance, Capital Structure, and Business Fundamentals. | Objective, standardized, and auditable credit risk rating (Tier 1 to Tier 5). |
 | **Multi-Year Financial Diagnostics** | 3-year comparative balance sheet & P&L spreading with real-time accounting balance validation. | 100% elimination of calculation errors and instant ratio trend detection. |
 | **Schedule Completeness & Fallback Engine** | Granular extraction of CWIP, Intangibles, Trade Payables, and schedule tracking (Debtor Aging, Inventory, Fixed Assets). | Prevents deal roadblocks; provides smart fallback scores with contextual advice. |
 | **Regulatory MPBF Working Capital** | Implements Tandon Committee Method II, Net Working Capital (NWC) gaps, and Drawing Power computations. | Eliminates regulatory non-compliance in working capital sanction limits. |

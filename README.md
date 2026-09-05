@@ -119,16 +119,16 @@ flowchart TD
 
 ---
 
-## 🌟 The 100-Point RAM Scorecard Framework
+## 🌟 Proprietary Credit Risk Model (RAM Architecture)
 
-Unlike subjective credit scorecards, our model relies on verified audited financial figures:
+The platform evaluates borrowers across three quantitative pillars derived from multi-year audited financial statements:
 
-| Category | Weight | Key Parameters Evaluated |
-| :--- | :---: | :--- |
-| **Financial Performance & Cash Flow** | **60 Points** | Current Ratio (10 pts), DSCR (10 pts), Operating Profit Margin (10 pts), ISCR (10 pts), Revenue Growth (8 pts), ROCE (7 pts), CFO to Debt (5 pts). |
-| **Capital Structure & Solvency** | **25 Points** | TOL / ATNW (10 pts), Debt-to-Equity (6 pts), Tangible Net Worth Buffer (5 pts), Debt-to-EBITDA Multiple (4 pts). |
-| **Business Fundamentals & Efficiency** | **15 Points** | Debtor Days (5 pts), Inventory Days (4 pts), Fixed Asset Turnover (3 pts), Operating Cycle Efficiency (3 pts). |
-| **Total Benchmark** | **100 Points** | **RAM-1 (80-100)** • **RAM-2 (65-79)** • **RAM-3 (50-64)** • **RAM-4 (35-49)** • **RAM-5 (<35)** |
+| Assessment Pillar | Core Underwriting Focus | Evaluation Dimension |
+| :--- | :--- | :--- |
+| **Financial Performance & Cash Flow** | Operating Profitability, Debt Servicing & Cash Adequacy | Evaluates liquidity buffers, debt service coverage, operating margins, earnings quality, and cash generation velocity. |
+| **Capital Structure & Solvency** | Leverage, Capital Adequacy & Balance Sheet Strength | Evaluates outside liability gearing, adjusted tangible net worth depth, debt-to-equity ratios, and debt burden multiples. |
+| **Business Fundamentals & Efficiency** | Working Capital Management & Asset Turnover | Evaluates receivables velocity, inventory holding efficiency, fixed asset productivity, and net operating cycle duration. |
+| **Risk Grading Model** | **Tier 1 (Prime) ➔ Tier 5 (Critical Risk)** | Automated mapping into standardized credit risk grades with actionable sanction covenants and pricing directives. |
 
 ---
 
